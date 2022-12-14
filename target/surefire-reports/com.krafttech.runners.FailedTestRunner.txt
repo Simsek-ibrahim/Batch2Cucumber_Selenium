@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.krafttech.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.208 s <<< FAILURE! - in com.krafttech.runners.FailedTestRunner
+Navigate to menu with parameter.Different user Harun navigates to  Edit Profile menu  Time elapsed: 5.177 s  <<< FAILURE!
+org.junit.ComparisonFailure: Verify that name is match expected:<[Haru]n> but was:<[Rabinso]n>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.krafttech.step_definitions.Dashboard_StepDef.the_user_name_should_be(Dashboard_StepDef.java:17)
+	at ✽.The user name should be "Harun"(file:///C:/Users/User/IdeaProjects/Batch2Cucumber_Selenium/src/test/resources/features/navigateMenuWiitParam.feature:24)
+
