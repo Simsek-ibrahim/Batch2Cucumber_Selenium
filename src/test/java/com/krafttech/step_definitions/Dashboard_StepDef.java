@@ -17,6 +17,7 @@ public class Dashboard_StepDef {
         Assert.assertEquals("Verify that name is match",expectedName,actualName);
 
     }
+
     @When("The user navigates to {string} menu")
     public void the_user_navigates_to_menu(String tabName) {
         dashboardPage.naviagateToTab(tabName);
