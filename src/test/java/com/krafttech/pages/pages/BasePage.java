@@ -33,7 +33,6 @@ public abstract class BasePage {
         BrowserUtils.waitForClickablility(By.xpath(moduleLocator),5);
         Driver.get().findElement(By.xpath(moduleLocator)).click();
 
-
     }
 
     public String subTitle(String subTitle){
