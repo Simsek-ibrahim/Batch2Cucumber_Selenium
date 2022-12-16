@@ -1,8 +1,8 @@
 package com.krafttech.pages.pages;
 
 import com.krafttech.utilities.BrowserUtils;
-import com.krafttech.utilities.Driver;
 
+import com.krafttech.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
