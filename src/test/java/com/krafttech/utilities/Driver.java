@@ -79,7 +79,7 @@ public class Driver {
 
                     try{
                         driverPool.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),chromeOptions));
-                       // driverPool.set(new RemoteWebDriver(new URL("http://3.86.251.4:4444/wd/hub"),chromeOptions));
+
                     }catch (MalformedURLException e){
                         e.printStackTrace();
                     }
@@ -91,7 +91,6 @@ public class Driver {
 
                     try{
                         driverPool.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),firefoxOptions));
-                        //driverPool.set(new RemoteWebDriver(new URL("http://3.86.251.4:4444/wd/hub"),chromeOptions));
                     }catch (MalformedURLException e){
                         e.printStackTrace();
                     }
